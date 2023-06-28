@@ -1,5 +1,3 @@
-import { Main } from 'components'
-
 export default function Home() {
-  return <Main />
+  return <h1>Hello Next.js</h1>
 }

@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "generate": "plop --plopfile generators/plopfile.js",
-    "test": "jest --maxWorkers=50%",
+    "test": "jest --maxWorkers=50% --passWithNoTests",
     "test:watch": "jest --watch",
     "postinstall": "husky install",
     "prepare": "husky install"
